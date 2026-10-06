@@ -1,8 +1,7 @@
 class Solution {
 public:
     int findPeakElement(vector<int>& A) {
-
-        int n = A.size();
+         int n = A.size();
 
         if(n==1) return 0;
         if(A[0]>A[1]) return 0;
